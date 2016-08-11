@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JS Example</title>
+    <script>
+	function changeImage() {
+    if (image.src.match(/duck/)) {img.src= "jelly.jpg"}
+	    image.src = "duck.jpg";
+    } else {
+        image.src = "jelly.jpg";
+    }
+}
+    </script>
+  </head>
+  <body>
+  <h1 id="somethingrandom">Welcome to my page!</h1>
+  <img src= "duck.jpg" onclick=changeImage(this) />
+    <!-- <button id="btn" onclick= myFunction()>Click me!</button>
+	<img src= "duck.jpg" id= "welcome"> -->
+	
+  </body>
+</html>

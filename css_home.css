@@ -1,0 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Catamaran:800);
+
+h2{
+	text-align: center;
+}
+p{
+	font-size: 125%;
+}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
